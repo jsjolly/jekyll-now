@@ -17,9 +17,8 @@ Although Office 365 comes with a robust built-in DLP for Exchange online, ShareP
 Option 1: Using existing on-premise DLP server. 
 ======================================= 
 If customer decides to use their existing on-premise DLP solution, then their email routing will look something like depicted in Figure1. This is extremely easy to configure if they have Exchange Hybrid environment as all they need to configure is "Centralized Mail Transport"  but in case they have some other mailing solution even then it is simple as they just need to configure Own email server Connector for email routing from Office 365 to on-premise servers.
- 
-  
- Figure1: Email routing between Exchange online and On-premise DLP.
+![](images/Figure1.jpg)
+
 
  
 Option 2: Using SaaS based service from DLP providers.
