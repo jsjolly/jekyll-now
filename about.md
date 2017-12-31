@@ -6,5 +6,6 @@ permalink: /about/
 ### More Information
 
 ### Contact me
-
-[jaspreet.jolly@microsoft.com](mailto:jaspreet.jolly@microsoft.com)
+Linkedin: https://www.linkedin.com/in/jaspreetjolly/
+Email: (mailto:jaspreet.jolly@microsoft.com)
+Twitter: @JaspreetJolly1
