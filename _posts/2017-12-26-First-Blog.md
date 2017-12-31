@@ -2,10 +2,7 @@
 layout: post
 title: Using 3rd party DLP with Exchange Online
 ---
-Using 3rd party DLP with Exchange Online
-
-
-Although Office 365 comes with a robust built-in DLP for Exchange Online, SharePoint Online and OneDrive for Business, yet there are customers who have invested in 3rd party DLP solutions and would want to use them with Exchange online. Reason for this varies from protecting existing investment on DLP to opting Office 365 SKU's which don’t have DLP bundled into them or specific requirements around integration with Network, Endpoint and Web DLP. Whatever might be the reason, if customer decides to use 3rd party DLP solution along with Exchange Online, placement of DLP solution and email routing becomes overly critical.
+Although Office 365 comes with a robust built-in DLP for Exchange Online, SharePoint Online and OneDrive for Business, yet there are customers who have invested in 3rd party DLP solutions and would want to use them with Exchange Online. Reason for this varies from protecting existing investment on DLP to opting Office 365 SKU's which don’t have DLP bundled into them or specific requirements around integration with Network, Endpoint and Web DLP. Whatever might be the reason, if customer decides to use 3rd party DLP solution along with Exchange Online, placement of DLP solution and email routing becomes overly critical.
 
 Typically, there are 3 possible deployment options/ topologies in which Exchange Online and 3rd party DLP can be integrated. 
 
