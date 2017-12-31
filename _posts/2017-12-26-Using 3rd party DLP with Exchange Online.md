@@ -10,22 +10,22 @@ Typically, there are 3 possible deployment options/ topologies in which Exchange
 2. Using SaaS based service from DLP providers.
 3. Installing DLP server on IaaS model such as Azure.
 
-Option 1: Using existing on-premise DLP server. 
- 
+Option 1: Using existing on-premise DLP server.
+=
 For an existing on-premise DLP solution, the email routing will look like Figure1. This is extremely easy to configure if you have Exchange Hybrid environment as all you need to configure is "Centralized Mail Transport". In case you have some other mailing solution even then it is simple as you just need to configure Own email server Connector for email routing from Office 365 to on-premise servers.
 
 <img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure1.jpg" />
 
  
 Option 2: Using SaaS based service from DLP providers.
-
+=
 For a SaaS based DLP solution, the email routing will look like Figure2. This is similar to option 1 as you just need to configure Partner organization Connector for email routing from Office 365 to SaaS based DLP.
 
 <img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%202.jpg" />
  
  
 Option 3: Installing DLP server on IaaS model such as Azure. 
-
+=
 For a DLP solution installed on Azure, the email routing will look like Figure3. This is bit tricky as we know that sending outbound e-mail to external domains directly from an e-mail server hosted in Azure compute services is not supported. Microsoft recommends that Azure customers use authenticated SMTP relay services such as Exchange Online Protection to send e-mail from Azure VMs or from Azure App Services.
 
 In case the customer has emails hosted on Office 365 and Azure is being used to host the DLP VM's then you will need to configure email routing in such manner that all "Outgoing" emails from Office 365 should be forwarded to DLP on Azure and post DLP has processed the messages, they should be routed back to Office 365. Now if not configured properly, this can cause:
