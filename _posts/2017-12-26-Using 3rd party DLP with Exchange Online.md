@@ -21,8 +21,7 @@ Option 2: Using SaaS based service from DLP providers.
 =
 For a SaaS based DLP solution, the email routing will look like Figure2. This is similar to option 1 as you just need to configure Partner organization Connector for email routing from Office 365 to SaaS based DLP.
 
-<img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%202.jpg" />
- 
+![](/images/Figure%202.jpg) 
  
 Option 3: Installing DLP server on IaaS model such as Azure. 
 =
