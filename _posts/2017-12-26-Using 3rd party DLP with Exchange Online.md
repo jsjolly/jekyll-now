@@ -24,7 +24,6 @@ For a SaaS based DLP solution, the email routing will look like Figure2. This is
  
 #### Option 3: Installing DLP server on IaaS model such as Azure. 
 For a DLP solution installed on Azure, the email routing will look like Figure3. This is bit tricky as we know that *[sending outbound e-mail to external domains directly from an e-mail server hosted in Azure compute services is not supported](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/).* 
-
 Microsoft recommends that Azure customers use authenticated SMTP relay services such as [Exchange Online Protection](https://products.office.com/en-us/exchange/exchange-email-security-spam-protection) to send e-mail from Azure VMs or from Azure App Services.
 
 In case the customer has emails hosted on Office 365 and Azure is being used to host the DLP VM's then you will need to configure email routing in such manner that all "Outgoing" emails from Office 365 should be forwarded to DLP on Azure and post DLP has processed the messages, they should be routed back to Office 365. Now if not configured properly, this can cause:
