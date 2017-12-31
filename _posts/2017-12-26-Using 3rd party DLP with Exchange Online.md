@@ -12,7 +12,7 @@ Typically, there are 3 possible deployment options/ topologies in which Exchange
 3. Installing DLP server on IaaS model such as Azure.
 
 #### Option 1: Using existing on-premise DLP server.
-For an existing on-premise DLP solution, the email routing will look like Figure1. This is extremely easy to configure if you have Exchange Hybrid environment as all you need to configure is "Centralized Mail Transport". In case you have some other mailing solution even then it is simple as you just need to configure Own email server Connector for email routing from Office 365 to on-premise servers.
+For an existing on-premise DLP solution, the email routing will look like Figure1. This is extremely easy to configure if you have Exchange Hybrid environment as all you need to configure is [Centralized Mail Transport](https://technet.microsoft.com/en-us/library/jj659055(v=exchg.150).aspx). In case you have some other mailing solution even then it is simple as you just need to configure Own email server Connector for email routing from Office 365 to on-premise servers.
 
 ![](/images/Figure1.jpg)
 
