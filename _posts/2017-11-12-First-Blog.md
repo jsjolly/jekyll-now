@@ -1,9 +1,7 @@
 ---
 layout: post
-title: My First Blog
+title: Using 3rd party DLP with Exchange Online
 ---
-
-This is my first blog
 Using 3rd party DLP with Exchange Online
 
 
