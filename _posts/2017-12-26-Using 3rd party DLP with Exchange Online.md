@@ -14,7 +14,7 @@ Option 1: Using existing on-premise DLP server.
 =
 For an existing on-premise DLP solution, the email routing will look like Figure1. This is extremely easy to configure if you have Exchange Hybrid environment as all you need to configure is "Centralized Mail Transport". In case you have some other mailing solution even then it is simple as you just need to configure Own email server Connector for email routing from Office 365 to on-premise servers.
 
-<img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure1.jpg" />
+![](/images/Figure1.jpg)
 
  
 Option 2: Using SaaS based service from DLP providers.
