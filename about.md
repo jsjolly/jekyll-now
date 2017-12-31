@@ -7,5 +7,7 @@ permalink: /about/
 
 ### Contact me
 Linkedin: https://www.linkedin.com/in/jaspreetjolly/
+
 Email: (mailto:jaspreet.jolly@microsoft.com)
+
 Twitter: @JaspreetJolly1
