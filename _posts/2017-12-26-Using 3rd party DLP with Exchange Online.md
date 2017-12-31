@@ -32,23 +32,16 @@ In case the customer has emails hosted on Office 365 and Azure is being used to 
 1. Email Loop between Office 365 and DLP
 2. Excess outgoing traffic from Azure DLP to Office 365 which may have cost implications.
 
-<img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%203.jpg" />  
+![](/images/Figure%203.jpg)
 
 To avoid the 2 issues mentioned above, you will need conditional email routing which means that you need to configure a Connector (Figure4) pointing to Public IP of VM running DLP solution and configure a Transport Rule (Figure5)  invoking the connector and allows EOP to route emails outside if mails are coming from DLP server.
  
- <img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%204.jpg" />
+![](/images/Figure%204.jpg)
 		 
 
-<img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%205.jpg" />
+![](/images/Figure%205.jpg)
 
 
 With these configurations in place, only Outgoing emails will get routed to DLP and back to Office 365.
 
 As you see above, configuring 3rd Party DLP solutions with Office 365 Exchange Online is remarkably simple but requires some thoughtful planning and execution. 
- 
-
-
-
-
-
-
