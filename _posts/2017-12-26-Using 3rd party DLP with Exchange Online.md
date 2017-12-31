@@ -6,9 +6,9 @@ Although Office 365 comes with a robust built-in DLP for Exchange Online, ShareP
 
 Typically, there are 3 possible deployment options/ topologies in which Exchange Online and 3rd party DLP can be integrated. 
 
-1.      Using existing on-premise DLP server.
-2.      Using SaaS based service from DLP providers.
-3.      Installing DLP server on IaaS model such as Azure.
+1. Using existing on-premise DLP server.
+2. Using SaaS based service from DLP providers.
+3. Installing DLP server on IaaS model such as Azure.
 
 Option 1: Using existing on-premise DLP server. 
  
@@ -30,8 +30,8 @@ For a DLP solution installed on Azure, the email routing will look like Figure3.
 
 In case the customer has emails hosted on Office 365 and Azure is being used to host the DLP VM's then you will need to configure email routing in such manner that all "Outgoing" emails from Office 365 should be forwarded to DLP on Azure and post DLP has processed the messages, they should be routed back to Office 365. Now if not configured properly, this can cause:
 
-1.      Email Loop between Office 365 and DLP
-2.      Excess outgoing traffic from Azure DLP to Office 365 which may have cost implications.
+1.  Email Loop between Office 365 and DLP
+2.  Excess outgoing traffic from Azure DLP to Office 365 which may have cost implications.
 
 <img src="https://github.com/jsjolly/jsjolly.github.io/blob/master/images/Figure%203.jpg" />  
 
