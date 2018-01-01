@@ -8,6 +8,6 @@ permalink: /about/
 ### Contact me
 Linkedin: [Jaspreet Singh Jolly](https://www.linkedin.com/in/jaspreetjolly/)
 
-Email:    [Jaspreet Singh Jolly](mailto:jaspreet.jolly@microsoft.com)
+Email:&nbsp;&nbsp;    [Jaspreet Singh Jolly](mailto:jaspreet.jolly@microsoft.com)
 
 Twitter:  [Jaspreet Singh Jolly](https://twitter.com/JaspreetJolly1)
