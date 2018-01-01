@@ -10,4 +10,4 @@ Linkedin: [Jaspreet Singh Jolly](https://www.linkedin.com/in/jaspreetjolly/)
 
 Email:&nbsp;&nbsp;&nbsp;&nbsp;    [Jaspreet Singh Jolly](mailto:jaspreet.jolly@microsoft.com)
 
-Twitter:  [Jaspreet Singh Jolly](https://twitter.com/JaspreetJolly1)
+Twitter:&nbsp;&nbsp;  [Jaspreet Singh Jolly](https://twitter.com/JaspreetJolly1)
