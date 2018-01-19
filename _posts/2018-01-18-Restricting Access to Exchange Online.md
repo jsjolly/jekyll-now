@@ -8,7 +8,8 @@ In my capacity as Modern Workplace TSP, I meet many customers who want to move t
 Ideally cloud is meant for anytime, anywhere access so it provides maximum usability and increases productivity but as we know, with this freedom to access data anytime, anywhere comes responsibility of securing the access and data itself and this is a tough balancing act. 
 
 <p align="center"><b>Security, Usability, & Data Sensitivity</b></p>
-![](/images/Balanced_Usability_&_Security.jpg)![](/images/High_Security_Low_Usabality.jpg)![](/images/High_Usability_Low_Security.jpg)
+
+![](/images/High_Security_Low_Usabality.jpg)![](/images/Balanced_Usability_&_Security.jpg)![](/images/High_Usability_Low_Security.jpg)
 
 Although Default configurations of Microsoft's cloud-based productivity solution, Office 365 provide secure communication channel but leave gaps from data leakage perspective as:
 - An authenticated user has access on Office 365 resources he/she has authorization on.
@@ -35,4 +36,4 @@ Additionally ADFS can be used for "Password Reset Portal" for remote users. So a
 
 ***Enterprise Mobility Suite***: EMS is the most flexible of these 3 solutions. It allow access to email content and attachment but restrict Cut, Copy, Paste of email content and attachments, downloading the attachment on device, Saving attachment on 3rd party cloud storage, forwarding the attachment using 3rd party messaging applications, Blocks access from untrusted devices or provides restricted accessing and can enforce MFA in case mails are being accessed from External Networks and block access based on sign-in risk etc. It can place restrictions even on application level for e.g. OWA is blocked but Yammer or SharePoint Online is allowed while all three use browser access. We recommend using EMS when requirements are complex and customer need granular control on the access. 
 
-<iframe width="900" height="650" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8C8BAC0A56AAF953%21101352&authkey=%21ADO5Mn2wi54kkMs&em=2&ActiveCell='Exchange%20Online'!A2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<iframe width="1100" height="650" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8C8BAC0A56AAF953%21101352&authkey=%21ADO5Mn2wi54kkMs&em=2&ActiveCell='Exchange%20Online'!A2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
