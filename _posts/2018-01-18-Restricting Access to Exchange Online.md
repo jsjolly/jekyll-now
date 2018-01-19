@@ -28,7 +28,6 @@ While restrictions that customers generally ask for are on different workloads i
 
 We have solutions for applying restrictions on access of Office 365 content which range from native application level restrictions to ADFS claim rules to applying restrictions using EMS suite. Depending on what customer requirement is, we can suggest the best fit solution.
 
- 
 *Native restrictions*: In addition to allowing or denying access to specific protocols such as OWA, ActiveSync, POP3/IMAP, MAPI etc. we can disable downloading of attachments using OWA and ActiveSync. In case of OWA, users will be able to see supported attachment in browser in “Read Only” mode but in case of ActiveSync clients, users will not be able to even open the documents itself. 
 This is best suited if requirements around security are simple and customer just wants to restrict access on attachments outside corpnet.
 
