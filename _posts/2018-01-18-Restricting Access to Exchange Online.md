@@ -8,9 +8,7 @@ In my capacity as Modern Workplace TSP, I meet many customers who want to move t
 Ideally cloud is meant for anytime, anywhere access so it provides maximum usability and increases productivity but as we know, with this freedom to access data anytime, anywhere comes responsibility of securing the access and data itself and this is a tough balancing act. 
 
 <p align="center"><b>Security, Usability, & Data Sensitivity</b></p>
-<p align="center"><img src="/images/Balanced_Usability_&_Security.jpg"></p>
-![](/images/High_Security_Low_Usabality.jpg)![](/images/High_Usability_Low_Security.jpg)
-
+![](/images/Balanced_Usability_&_Security.jpg)![](/images/High_Security_Low_Usabality.jpg)![](/images/High_Usability_Low_Security.jpg)
 
 Although Default configurations of Microsoft's cloud-based productivity solution, Office 365 provide secure communication channel but leave gaps from data leakage perspective as:
 - An authenticated user has access on Office 365 resources he/she has authorization on.
