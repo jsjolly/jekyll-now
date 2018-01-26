@@ -11,7 +11,7 @@ Ideally cloud is meant for anytime, anywhere access so it provides maximum usabi
 
 ![](/images/High_Security_Low_Usabality.jpg)![](/images/Balanced_Usability_&_Security.jpg)![](/images/High_Usability_Low_Security.jpg)
 
-Although Default configurations of Microsoft's cloud-based productivity solution, Office 365 provide secure communication channel but leave gaps from data leakage perspective as:
+Although Default configurations of Office 365 provide secure communication channel but additional configurations are required from data leakage perspective as:
 - An authenticated user has access on Office 365 resources he/she has authorization on.
 - Office 365 can be accessed anytime and from anywhere i.e. Corpnet or Internet. 
 - Office 365 can be accessed anytime from any device(Windows/Mac/Linux based PC's, Windows/iOS/Android based tablet's and Smartphone's).
